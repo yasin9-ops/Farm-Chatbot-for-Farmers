@@ -1,0 +1,7 @@
+project_id = "nfqyqwlnyhdvhftieuwb"
+
+[functions.farm-chat]
+verify_jwt = false
+
+[functions.get-weather]
+verify_jwt = false
