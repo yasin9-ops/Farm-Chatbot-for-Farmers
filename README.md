@@ -209,11 +209,3 @@ This project is developed for educational and academic purposes.
 # ⭐ Support
 
 If you like this project, give it a ⭐ on GitHub.
-
-# Testing part
-## Testing
-### Backend
-pytest -v
-
-### Frontend
-npx vitest run
