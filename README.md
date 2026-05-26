@@ -1,76 +1,214 @@
-# Welcome to your Lovable project
+# 🌾 Farm Chatbot for Farmers Using Machine Learning
 
-## Project info
+An AI-powered smart agriculture assistant developed to support farmers with crop recommendations, farming guidance, and agricultural decision-making using Machine Learning and modern web technologies.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+This platform helps farmers improve productivity through intelligent crop prediction, AI-powered chatbot support, and real-time agricultural assistance.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+# 🚀 Features
 
-**Use Lovable**
+## 🤖 AI Chatbot Assistance
+- Smart chatbot for farmer queries
+- Agricultural guidance and support
+- Interactive farmer-friendly interface
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## 🌱 Crop Recommendation System
+- Machine Learning-based crop prediction
+- Random Forest Algorithm integration
+- Smart agricultural recommendations
 
-Changes made via Lovable will be committed automatically to this repo.
+## 📊 Data Analysis
+- Agricultural data processing
+- Prediction and recommendation system
+- Performance-oriented ML model
 
-**Use your preferred IDE**
+## 🔐 Authentication & Database
+- Secure login system
+- Supabase database integration
+- User data management
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 📱 Modern User Interface
+- Responsive React frontend
+- Fast and interactive design
+- Farmer-friendly accessibility
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+# 🛠️ Tech Stack
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## Frontend
+- React.js
+- TypeScript
+- Tailwind CSS
+- Vite
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## Backend
+- FastAPI
+- Python
 
-# Step 3: Install the necessary dependencies.
-npm i
+## Database
+- Supabase
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+## Machine Learning
+- Random Forest Algorithm
+- Scikit-learn
+- Pandas
+- NumPy
+
+---
+
+# 📂 Project Structure
+
+```bash
+Farm-Chatbot-for-Farmers/
+│
+├── public/
+├── src/
+├── ml_model/
+├── supabase/
+├── tests/
+├── README.md
+├── package.json
+├── vite.config.ts
+└── .gitignore
+```
+
+---
+
+# ⚙️ Installation & Setup
+
+## 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/your-username/Farm-Chatbot-for-Farmers.git
+```
+
+## 2️⃣ Navigate to Project Folder
+
+```bash
+cd Farm-Chatbot-for-Farmers
+```
+
+## 3️⃣ Install Frontend Dependencies
+
+```bash
+npm install
+```
+
+## 4️⃣ Start Frontend
+
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## 5️⃣ Setup Backend
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Install Python dependencies:
 
-**Use GitHub Codespaces**
+```bash
+pip install -r requirements.txt
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Run FastAPI server:
 
-## What technologies are used for this project?
+```bash
+uvicorn main:app --reload
+```
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+# 🤖 Machine Learning Model
 
-## How can I deploy this project?
+This project uses a **Random Forest Machine Learning Algorithm** to provide crop recommendations based on agricultural input data.
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+The ML model helps farmers:
+- Select suitable crops
+- Improve farming decisions
+- Increase productivity
+- Reduce agricultural risks
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
+# 📸 Screenshots
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## Home Page
+_Add project screenshot here_
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## Chatbot Interface
+_Add chatbot screenshot here_
+
+## Crop Recommendation System
+_Add recommendation screenshot here_
+
+---
+
+# 🔒 Security Features
+
+- Secure authentication
+- Environment variable protection
+- Database integration with Supabase
+- API-based backend communication
+
+---
+
+# 🎯 Project Objective
+
+The main objective of this project is to support farmers using Artificial Intelligence and Machine Learning technologies by providing smart agricultural guidance and crop recommendations through a digital platform.
+
+---
+
+# 💡 Future Enhancements
+
+- 🌦️ Weather prediction integration
+- 🌍 Multi-language farmer support
+- 📱 Mobile application support
+- 🛰️ IoT agriculture integration
+- 📈 Advanced analytics dashboard
+
+---
+
+# 🧪 Testing
+
+## Frontend Testing
+
+```bash
+npm test
+```
+
+## Backend Testing
+
+```bash
+pytest
+```
+
+# Testing part
+## Testing
+### Backend
+pytest -v
+
+### Frontend
+npx vitest run
+---
+
+# 👨‍💻 Developed By
+
+**Shaik Yasin**
+
+Final Year B.Tech Project  
+Artificial Intelligence Department
+
+---
+
+# 📄 License
+
+This project is developed for educational and academic purposes.
+
+---
+
+# ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub.
 
 # Testing part
 ## Testing
